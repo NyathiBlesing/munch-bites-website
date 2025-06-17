@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Blessing Munch Bites Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Blessing Munch Bites</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <div class="slide active">
+            <img src="images/wallpaper2.jpeg" alt="Slide 1">
+            <div class="caption">
+                <h1>Welcome to Blessing Munch Bites</h1>
+                <p>Experience the taste of luxury and comfort</p>
+                <a href="menu.html">
+                    <button>Checkout Our Menu</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/wallpaper3.jpg" alt="Slide 2">
+            <div class="caption">
+                <h1>Come Grab A Bite With Us</h1>
+                <a href="menu.html">
+                    <button>Checkout Our Menu</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/wallpaper1.jpeg" alt="Slide 3">
+            <div class="caption">
+                <h1>Got Suggestions? Tell Us!</h1>
+                <button>Give Suggestions</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="images/wallpaper4.jpeg" alt="Slide 4">
+            <div class="caption">
+                <h1>Massive Weekly Promotions!</h1>
+                <button>Find Out More</button>
+            </div>
+        </div>
+
+        <div class="dots"></div>
+    </section>
+
+    <!-- Black Divider -->
+<div class="divider"></div>
+
+    <!-- Two Side-by-Side Images Section -->
+
+<section class="two-images">
+    <div class="image-box left">
+        <div class="overlay">
+            <h2>Discover Our Menu</h2>
+            <a href="menu.html">
+            <button onclick="alert('Redirecting to Menu...')">Check Our Menu</button>
+            </a>
+        </div>
+    </div>
+    <div class="image-box right">
+        <div class="overlay">
+            <h2>How Was It For You?</h2>
+            <button onclick="alert('Redirecting to Survey...')">Complete a Survey</button>
+        </div>
+    </div>
+</section>
+
+   <!-- Black Divider -->
+   <div class="divider1"></div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2025 BlessingMunchBites Restaurant. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+        </div>
+       
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
