@@ -1,3 +1,3 @@
-This is the munch bites restaurant website
+This is the munch bites restaurant website!
 
-Languages used: HTML, CSS and JavaScript
+Programming languages used: HTML, CSS and JavaScript
